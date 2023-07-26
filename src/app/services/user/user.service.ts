@@ -7,7 +7,7 @@ import { User } from 'src/app/modeles/user-model';
 export class UserService {
   user: User;
 
-  constructor() { 
+  constructor() {
     this.user=new User(
       'Wajd','Mehdaoui','wajd@gmail.com','azerty'
     );
@@ -15,7 +15,7 @@ export class UserService {
 
   updateUser(user: User){
     this.user=user;
-  
+
   }
-  
+
 }
