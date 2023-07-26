@@ -1,0 +1,11 @@
+<th scope="row">{{id}}</th>
+<td>{{name}}</td>
+<td>{{status}}</td>
+<td>
+    <button
+    (click)="onClickChangeStatus()"
+     class="btn btn-success">Changer l'état</button>
+     <button
+     (click)="onClickShowDetails()"
+      class="btn btn-warning m-2">Voir détails</button>
+</td>

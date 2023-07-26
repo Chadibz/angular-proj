@@ -1,0 +1,25 @@
+
+
+  
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Etat</th>
+        <th scope="col">Action</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr app-table-line
+      *ngFor="let product of products"
+      [id]="product.id"
+      [name]="product.name"
+      [status]="product.status"
+      >
+       
+      </tr>
+     
+    </tbody>
+  </table>
